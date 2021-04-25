@@ -55,7 +55,7 @@ define gui.interface_text_color = u'#404040'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "NewTegomin-Regular.ttf"
 
 ## The font used for character names.
 define gui.name_text_font = "DejaVuSans.ttf"
@@ -64,22 +64,22 @@ define gui.name_text_font = "DejaVuSans.ttf"
 define gui.interface_text_font = "DejaVuSans.ttf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 34
+define gui.text_size = 44
 
 ## The size of character names.
-define gui.name_text_size = 42
+define gui.name_text_size = 50
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 36
+define gui.interface_text_size = 40
 
 ## The size of labels in the game's user interface.
-define gui.label_text_size = 36
+define gui.label_text_size = 42
 
 ## The size of text on the notify screen.
-define gui.notify_text_size = 26
+define gui.notify_text_size = 35
 
 ## The size of the game's title.
-define gui.title_text_size = 73
+define gui.title_text_size = 80
 
 
 ## Main and Game Menus #########################################################
@@ -187,7 +187,7 @@ define gui.confirm_button_text_xalign = 0.5
 define gui.page_button_borders = Borders(13, 5, 13, 5)
 
 define gui.quick_button_borders = Borders(13, 5, 13, 0)
-define gui.quick_button_text_size = 18
+define gui.quick_button_text_size = 30
 define gui.quick_button_text_idle_color = gui.idle_small_color
 define gui.quick_button_text_selected_color = gui.accent_color
 

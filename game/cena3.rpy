@@ -28,7 +28,7 @@ label cena3:
     show salesperson at right
     with dissolve
 
-    vendor "“Hey, buddy. Can you drive?”"
+    vendor "\"Hey, buddy. Can you drive?\""
 
     menu:
 
@@ -54,11 +54,11 @@ label cantdrive:
 
 label apospergunta:
 
-    vendor "“Here are your keys. Don’t worry, the ovulum is making all the investment.”"
+    vendor "\"Here are your keys. Don’t worry, the ovulum is making all the investment.\""
 
-    spitz "“The ovol-”{p=0.7}{nw} "
+    spitz "\"The ovol-\"{p=0.7}{nw} "
 
-    vendor "“Neeeeeext!”"
+    vendor "\"Neeeeeext!\""
 
     hide spitz
     hide salesperson
