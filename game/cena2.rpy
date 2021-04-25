@@ -1,5 +1,5 @@
-define tc = Character("Sptz 1")
-define th = Character("Sptz 2")
+define tc = Character("Sperm 1")
+define th = Character("Sperm 2")
 
 label cena2:
     show bg scattered sperm
@@ -16,7 +16,7 @@ label cena2:
     tc "\"Look, I’ve got two tails!\""
 
     hide halfblack
-    hide 2caudas 
+    hide 2caudas
     with dissolve
 
     "All around, sperm cells fall scattered on the ground."
@@ -38,4 +38,3 @@ label cena2:
     "The floor is squishy when I manage to get up on my tail."
 
     jump cena3
-
