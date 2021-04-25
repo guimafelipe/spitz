@@ -5,11 +5,19 @@ label cena4:
     with fade
 
     
-    "\"Honk hooonk\" \n\"Beep beeeeeep\""
+    # "\"Honk hooonk\" \n\"Beep beeeeeep\""
     
-    play sound "audio/buzina 2.wav"
+    
 
     "Barely a few minutes on the road and the sound of car horns are making me crazy."
+    
+    window hide
+
+    play sound "audio/buzina 2.ogg"
+
+    pause
+
+    window show
 
     "I discovered I can actually drive, by the way."
 
@@ -44,7 +52,7 @@ label cena4:
     "I honk my horn."
 
 
-    play sound "audio/buzina 1.wav"
+    play sound "audio/buzina 3.ogg"
     "BEEEEEEEEEEEEEEEEEEEEEEEP"
 
     "I'm still pressing the horn when the car in front of mine suddenly brakes."
