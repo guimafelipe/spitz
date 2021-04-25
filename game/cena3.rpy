@@ -17,11 +17,16 @@ label cena3:
     "Do I even have a license?"
 
     scene bg rent a car 2
-    with dissolve
+    with squares
 
     "…"
 
     "It’s finally my turn. Someone stares up at me from a little cabin."
+
+    show halfblack
+    show spitz at left
+    show salesperson at right
+    with dissolve
 
     vendor "“Hey, buddy. Can you drive?”"
 
@@ -34,26 +39,31 @@ label cena3:
             jump cantdrive
 
 
-    label candrive:
+label candrive:
     spitz "Sure."
 
     vendor "You're a lucky one. Most of these folks don't."
 
     jump apospergunta
 
-    label cantdrive:
+label cantdrive:
     spitz "Er... I don't think so."
 
     vendor "You'll get the hang of it."
     jump apospergunta
 
-    label apospergunta:
+label apospergunta:
 
     vendor "“Here are your keys. Don’t worry, the ovulum is making all the investment.”"
 
-    spitz "“The ovol-”"
+    spitz "“The ovol-”{p=0.7}{nw} "
 
     vendor "“Neeeeeext!”"
+
+    hide spitz
+    hide salesperson
+    hide halfblack
+    with dissolve
 
     "The person seems busy. I’d better get going."
 
