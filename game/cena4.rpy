@@ -53,7 +53,10 @@ label cena4:
 
 
     play sound "audio/buzina 3.ogg"
-    "BEEEEEEEEEEEEEEEEEEEEEEEP"
+    
+    pause
+    
+    # "BEEEEEEEEEEEEEEEEEEEEEEEP"
 
     "I'm still pressing the horn when the car in front of mine suddenly brakes."
 
@@ -80,7 +83,9 @@ label cena4:
 
     play music "audio/musica da luta.ogg"
 
-    show bully on the right
+    show halfblack
+    show punk
+    with dissolve
 
     "Shakily, I manage to get out of my car and face him."
 
@@ -94,14 +99,24 @@ menu:
 
 label apologize:
 
-    spitz "I’m so sorry, man. I didn’t mean to-"
+    show punk at right with move
+    show spitz at left
+    with dissolve
+
+    spitz "I’m so sorry, man. I didn’t mean to- {p=2}{nw} "
+
     bully "YOU DIDN’T MEAN TO F-ING CRASH INTO MY CAR?"
 
     jump aposmenu
 
 label yell:
 
-    spitz "GO CUT OFF YOUR GRANDMA, YOU MOTHER FLOATING SON OF A -"
+    show punk at right with move
+    show spitz at left
+    
+    spitz "GO CUT OFF YOUR GRANDMA, YOU MOTHER FLOATING SON OF A - {p=2}{nw} "
+
+    # show punk at right
 
     jump aposmenu
 
