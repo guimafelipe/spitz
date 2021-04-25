@@ -1,4 +1,4 @@
-define spitz = Character('Spitz')
+define spitz = Character('Spitz', color = "#00138f")
 
 label cena0:
     scene bg darkness

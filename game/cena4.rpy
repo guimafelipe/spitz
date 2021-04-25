@@ -1,9 +1,9 @@
-define bully = Character('Bully')
+define bully = Character('Bully', color="#eb343a")
 
 label cena4:
 scene bg traffic jam
 
-"\"Honk hooonk\" \n \"Beep beeeeeep\""
+"\"Honk hooonk\" \n\"Beep beeeeeep\""
 
 "Barely a few minutes on the road and the sound of car horns are making me crazy."
 
@@ -35,7 +35,7 @@ scene bg traffic jam
 
 "The traffic calms down a little around me. It starts to flow again."
 
-"Until a m-floater cut me off."
+"Until a m-floater cuts me off."
 
 "I honk my horn."
 
@@ -43,25 +43,25 @@ scene bg traffic jam
 
 "I'm still pressing the horn when the car in front of mine suddenly brakes."
 
-"Screeeeeeeeeeeeeeeech"
+"{i}Screeeeeeeeeeeeeeeech{/i}"
 
 "I desperately reach for the brake with my tail."
 
-"Screeeeeeeeeeeeeeeech"
+"{i}Screeeeeeeeeeeeeeeech{/i}"
 
 show bg traffic jam with vpunch
 
-"BAM!"
+"{b}BAM!{/b}"
 
 show bg traffic jam with vpunch
 
-"CRASH!"
+"{b}CRASH!{/b}"
 
 "Oh gosh, we crashed."
 
 "The driver comes out of the car. He's marching angrily towards me."
 
-show bully on the right 
+show bully on the right
 
 "Shakily, I manage to get out of my car and face him."
 
@@ -93,5 +93,5 @@ bully "YOU ALMOST KILLED HER."
 
 spitz "But… but… why did you cut me off with your grandma in the backseat?"
 
-spitz "It’s dangerouns, you know."
+spitz "It’s dangerous, you know."
 return
