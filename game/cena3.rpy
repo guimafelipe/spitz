@@ -49,7 +49,7 @@ label candrive:
 label cantdrive:
     spitz "Er... I don't think so."
 
-    vendor "You'll get the hang of it."
+    vendor "I'm sure you'll get the hang of it."
     jump apospergunta
 
 label apospergunta:
