@@ -1,69 +1,80 @@
 define bully = Character('Bully', color="#eb343a")
 
 label cena4:
-scene bg traffic jam
+    scene bg engarrafamento
+    with fade
 
-"\"Honk hooonk\" \n\"Beep beeeeeep\""
+    
+    "\"Honk hooonk\" \n\"Beep beeeeeep\""
+    
+    play sound "audio/buzina 2.wav"
 
-"Barely a few minutes on the road and the sound of car horns are making me crazy."
+    "Barely a few minutes on the road and the sound of car horns are making me crazy."
 
-"I discovered I can actually drive, by the way."
+    "I discovered I can actually drive, by the way."
 
-"I don't know what I expected from the uterus, but it certainly wasn't this f-ing traffic jam."
+    "I don't know what I expected from the uterus, but it certainly wasn't this f-ing traffic jam."
 
-"The tension is palpable in the air."
+    "The tension is palpable in the air."
 
-"\"Get outta my way! \""
+    "\"Get outta my way! \""
 
-" \"You inseminating mother floater! \""
+    " \"You inseminating mother floater! \""
 
-"I try to keep calm, maybe remember some peaceful moment from my childhood."
+    "I try to keep calm, maybe remember some peaceful moment from my childhood."
 
-"Nothing comes to mind."
+    "Nothing comes to mind."
 
-"What was I doing last week?"
+    "What was I doing last week?"
 
-"Nothing at all that I can remember."
+    "Nothing at all that I can remember."
 
-"I focus on my objective."
+    "I focus on my objective."
 
-"The sole reason I came here in the first place."
+    "The sole reason I came here in the first place."
 
-"To find the OVULUM."
+    "To find the OVULUM."
 
-"Whatever an ovulum is."
+    "Whatever an ovulum is."
 
-"The traffic calms down a little around me. It starts to flow again."
+    "The traffic calms down a little around me. It starts to flow again."
 
-"Until a m-floater cuts me off."
+    "Until a m-floater cuts me off."
 
-"I honk my horn."
+    "I honk my horn."
 
-"BEEEEEEEEEEEEEEEEEEEEEEEP"
 
-"I'm still pressing the horn when the car in front of mine suddenly brakes."
+    play sound "audio/buzina 1.wav"
+    "BEEEEEEEEEEEEEEEEEEEEEEEP"
 
-"{i}Screeeeeeeeeeeeeeeech{/i}"
+    "I'm still pressing the horn when the car in front of mine suddenly brakes."
 
-"I desperately reach for the brake with my tail."
+    "{i}Screeeeeeeeeeeeeeeech{/i}"
 
-"{i}Screeeeeeeeeeeeeeeech{/i}"
+    "I desperately reach for the brake with my tail."
 
-show bg traffic jam with vpunch
+    "{i}Screeeeeeeeeeeeeeeech{/i}"
 
-"{b}BAM!{/b}"
+    #show bg traffic jam with vpunch
+    with vpunch
 
-show bg traffic jam with vpunch
+    "{b}BAM!{/b}"
+    with vpunch
 
-"{b}CRASH!{/b}"
+    #show bg traffic jam with vpunch
 
-"Oh gosh, we crashed."
+    "{b}CRASH!{/b}"
+    
 
-"The driver comes out of the car. He's marching angrily towards me."
+    "Oh gosh, we crashed."
 
-show bully on the right
+    "The driver comes out of the car. He's marching angrily towards me."
 
-"Shakily, I manage to get out of my car and face him."
+    play music "audio/musica da luta.ogg"
+
+    show bully on the right
+
+    "Shakily, I manage to get out of my car and face him."
 
 menu:
 
@@ -75,23 +86,23 @@ menu:
 
 label apologize:
 
-spitz "I’m so sorry, man. I didn’t mean to-"
-bully "YOU DIDN’T MEAN TO F-ING CRASH INTO MY CAR?"
+    spitz "I’m so sorry, man. I didn’t mean to-"
+    bully "YOU DIDN’T MEAN TO F-ING CRASH INTO MY CAR?"
 
-jump aposmenu
+    jump aposmenu
 
 label yell:
 
-spitz "GO CUT OFF YOUR GRANDMA, YOU MOTHER FLOATING SON OF A -"
+    spitz "GO CUT OFF YOUR GRANDMA, YOU MOTHER FLOATING SON OF A -"
 
-jump aposmenu
+    jump aposmenu
 
 label aposmenu:
 
-bully "MY GRANDMA IS IN THE BACKSEAT, YOU MONSTER!"
-bully "YOU ALMOST KILLED HER."
+    bully "MY GRANDMA IS IN THE BACKSEAT, YOU MONSTER!"
+    bully "YOU ALMOST KILLED HER."
 
-spitz "But… but… why did you cut me off with your grandma in the backseat?"
+    spitz "But… but… why did you cut me off with your grandma in the backseat?"
 
-spitz "It’s dangerous, you know."
-return
+    spitz "It’s dangerous, you know."
+    return
