@@ -1,0 +1,97 @@
+define bully = Character('Bully')
+
+label cena4:
+scene bg traffic jam
+
+"\"Honk hooonk\" \n \"Beep beeeeeep\""
+
+"Barely a few minutes on the road and the sound of car horns are making me crazy."
+
+"I discovered I can actually drive, by the way."
+
+"I don't know what I expected from the uterus, but it certainly wasn't this f-ing traffic jam."
+
+"The tension is palpable in the air."
+
+"\"Get outta my way! \""
+
+" \"You inseminating mother floater! \""
+
+"I try to keep calm, maybe remember some peaceful moment from my childhood."
+
+"Nothing comes to mind."
+
+"What was I doing last week?"
+
+"Nothing at all that I can remember."
+
+"I focus on my objective."
+
+"The sole reason I came here in the first place."
+
+"To find the OVULUM."
+
+"Whatever an ovulum is."
+
+"The traffic calms down a little around me. It starts to flow again."
+
+"Until a m-floater cut me off."
+
+"I honk my horn."
+
+"BEEEEEEEEEEEEEEEEEEEEEEEP"
+
+"I'm still pressing the horn when the car in front of mine suddenly brakes."
+
+"Screeeeeeeeeeeeeeeech"
+
+"I desperately reach for the brake with my tail."
+
+"Screeeeeeeeeeeeeeeech"
+
+show bg traffic jam with vpunch
+
+"BAM!"
+
+show bg traffic jam with vpunch
+
+"CRASH!"
+
+"Oh gosh, we crashed."
+
+"The driver comes out of the car. He's marching angrily towards me."
+
+show bully on the right 
+
+"Shakily, I manage to get out of my car and face him."
+
+menu:
+
+    "Apologize":
+        jump apologize
+
+    "Yell at him":
+        jump yell
+
+label apologize:
+
+spitz "I’m so sorry, man. I didn’t mean to-"
+bully "YOU DIDN’T MEAN TO F-ING CRASH INTO MY CAR?"
+
+jump aposmenu
+
+label yell:
+
+spitz "GO CUT OFF YOUR GRANDMA, YOU MOTHER FLOATING SON OF A -"
+
+jump aposmenu
+
+label aposmenu:
+
+bully "MY GRANDMA IS IN THE BACKSEAT, YOU MONSTER!"
+bully "YOU ALMOST KILLED HER."
+
+spitz "But… but… why did you cut me off with your grandma in the backseat?"
+
+spitz "It’s dangerouns, you know."
+return

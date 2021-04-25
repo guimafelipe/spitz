@@ -1,5 +1,9 @@
 
 label cena2:
+    show bg scattered sperm
+
+    with fade
+
     "“Ouch!”"
 
     "“Get out of my tail!”"
@@ -16,4 +20,5 @@ label cena2:
 
     "The floor is squishy when I manage to get up on my tail."
 
-    return
+    jump cena3
+
