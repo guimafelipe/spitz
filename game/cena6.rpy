@@ -103,11 +103,10 @@ label cena6:
     show old serious at left
     show ovulo at right:
         zoom 0.7
+    show bg tuba uterina
     with dissolve
 
     spitz "Could that be the OVUM!?"
-
-    scene bg tuba uterina
 
     ovum "It's actualy secondary oocyte."
 
