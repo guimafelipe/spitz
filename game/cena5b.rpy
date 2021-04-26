@@ -58,8 +58,15 @@ label cena5b:
 
     "I heard my celular membrane tearing and felt"
 
+    show spitz morrendo:
+        easeout 1.0 rotate -90 yalign 1.7
+    with move
+
     "my cytoplasm... oozing... out..."
 
+    scene bg darkness
+    with dissolve
+ 
     spitz "..."
 
     show spitz dead

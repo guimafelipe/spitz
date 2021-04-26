@@ -67,6 +67,7 @@ label cena6:
     "Am I going out of energy?"
 
     show halfblack
+    hide spitz
     show spitz at right:
         xzoom -1.0
     show old serious at left:
@@ -171,7 +172,7 @@ label cena6:
 
     "I fall on my knees."
 
-    show old comtempt
+    show old contempt
 
     grandma "Well, the little guy doesn't seem to have much time left."
 
@@ -226,18 +227,26 @@ label cena6:
     show ovulo big mouth at right:
         zoom 0.7
 
+    show old beheaded
+    show head at truecenter
+    with dissolve
+
     "Ms. Egg ripped the old woman's head off."
 
     play sound "audio/splash.ogg" volume 0.7
 
     "And ate it whole."
 
-    hide old
+    hide head
     with dissolve
 
     msegg "NOM NOM NOM NOM NOM"
 
     play sound "audio/chomp.mp3"
+
+    show old:
+        easeout 1.0 rotate -90 yalign 1.3
+    with move
 
     spitz "!"
 
@@ -257,6 +266,10 @@ label cena6:
     with move
 
     "I guess she's going to get caught in that ridiculous traffic jam."
+
+    show spitz morrendo:
+        easeout 1.0 rotate -90 yalign 1.5
+    with move
 
     "It was my last thought before everything went blank."
 
