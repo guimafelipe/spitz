@@ -5,6 +5,8 @@ label cena2:
     show bg scattered sperm
     with fade
 
+    play music "audio/musica neutra.ogg"
+
     "\"Ouch!\""
 
     "\"Get out of my tail!\""

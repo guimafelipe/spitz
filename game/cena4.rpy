@@ -49,12 +49,16 @@ label cena4:
 
     "The traffic calms down a little around me. It starts to flow again."
 
+    #---- START OF TRAFFIC INCIDENT
+
+    play music "audio/musica da luta.ogg" fadein 1.0
+
     "Until a m-floater cuts me off."
 
     "I honk my horn."
 
 
-    play sound "audio/buzina 3.ogg" volume 0.6
+    play sound "audio/buzina 3.ogg" volume 0.4
 
     pause
 
@@ -67,6 +71,8 @@ label cena4:
     "I desperately reach for the brake with my tail."
 
     "{i}Screeeeeeeeeeeeeeeech{/i}"
+
+    stop music fadeout 1.0
 
     #show bg traffic jam with vpunch
     with vpunch
@@ -83,7 +89,7 @@ label cena4:
 
     "The driver comes out of the car. He's marching angrily towards me."
 
-    play music "audio/musica da luta.ogg"
+    play music "audio/musica da luta.ogg" fadein 1.0
 
     show halfblack
     show punk
@@ -131,7 +137,9 @@ label aposmenu:
 
     spitz "It’s dangerous, you know."
 
-    stop music
+    #stop music
+
+    $ renpy.music.set_pause(True)
 
     bully "My grandma has but a few minutes to live."
 
@@ -140,6 +148,8 @@ label aposmenu:
     bully "For me to reach the OVUM."
 
     bully "AND I’M NOT LETTING A MOTHERFLOATING WIMP GET IN MY WAY."
+
+    $ renpy.music.set_pause(False)
 
     "He seems about to jump at me."
 
