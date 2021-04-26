@@ -128,4 +128,23 @@ label aposmenu:
     spitz "But… but… why did you cut me off with your grandma in the backseat?"
 
     spitz "It’s dangerous, you know."
-    return
+
+    stop music
+
+    bully "My grandma has but a few minutes to live."
+
+    bully "Her dying wish is for me to achieve what she never could."
+
+    bully "For me to reach the OVOLUM."
+
+    bully "AND I’M NOT LETTING A MOTHERFLOATING WIMP GET IN MY WAY."
+
+    "He seems about to jump at me."
+
+menu:
+    "I think I saw an iron bar lying around by the roadside.":
+         jump cena5a
+
+    "I’d better run.":
+         jump cena5b
+    
