@@ -36,9 +36,9 @@ label cena5b:
 
     "It connected with my head."
 
-    play sound "audio/thud.ogg" volume 0.4
+    show spitz pain at left
 
-    with vpunch
+    play sound "audio/thud.ogg" volume 0.4
 
     "He did it again."
 
@@ -52,9 +52,7 @@ label cena5b:
 
     with hpunch
 
-    "{b}THUD{/b}"
-
-    "{b}SPLASH{/b}"
+    play sound "audio/thud.ogg" volume 0.4
 
     play sound "audio/splash.ogg" volume 0.4
 

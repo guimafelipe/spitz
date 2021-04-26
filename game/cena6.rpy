@@ -15,9 +15,9 @@ label cena6:
 
     "But boy, was I wrong."
 
-    "Drivers honk angrily at us."
-
     play sound "audio/buzina 1.ogg" volume 0.4
+
+    "Drivers honk angrily at us."
 
     "Some pull over. Afraid of the grandma, perharps?"
 
@@ -30,7 +30,7 @@ label cena6:
     show halfblack
     show spitz at right:
         xzoom -1.0
-    show old serious at left:
+    show old snarl at left:
         xzoom -1.0
     with dissolve
 
@@ -47,9 +47,9 @@ label cena6:
 
     "We go down one of the ovarian tubes. I have no idea if it's the right one."
 
-    scene bg ovarium empty
-
     "At this point, I just want to survive."
+
+    scene bg ovarium empty
 
     #scene bg ovarium empty
     #with fade
@@ -62,6 +62,8 @@ label cena6:
 
     "It would be so easy to keep going, but I start to feel my tail faltering."
 
+    show spitz pain
+
     "Am I going out of energy?"
 
     show halfblack
@@ -71,7 +73,11 @@ label cena6:
         xzoom -1.0
     with dissolve
 
+    show spitz angry
+
     spitz "How are you alive for 10 days straight, you horrid woman?"
+
+    show old snarl
 
     grandma "I ATE MY GRANDSON'S MITHOCHONDRIA. AND MY CHILDREN'S BEFORE."
 
@@ -94,7 +100,7 @@ label cena6:
     show halfblack
     show spitz at left:
         xalign 0.25
-    show old contempt at left
+    show old serious at left
     show ovulo at right:
         zoom 0.7
     with dissolve
@@ -131,9 +137,13 @@ label cena6:
 
     spitz "And I kinda killed this one guy..."
 
+    show old snarl
+
     grandma "KINDA?!"
 
     msegg "Hmm... I do like the violent ones."
+
+    show old
 
     "Let's she think it was on purpose, then."
 
@@ -143,9 +153,13 @@ label cena6:
 
     spitz "And I ran all the way here from the uterus with this psychotic old lady after me."
 
+    show old snarl
+
     grandma "PSYCHOTIC YOUR A- {p=1.5}{nw}"
 
     spitz "Argh!"
+
+    show old
 
     "I feel an intense pain at the base of my tail."
 
@@ -157,6 +171,8 @@ label cena6:
     with move
 
     "I fall on my knees."
+
+    show old comtempt
 
     grandma "Well, the little guy doesn't seem to have much time left."
 
@@ -178,7 +194,7 @@ label cena6:
 
     spitz "Argh"
 
-    show spitz at left:
+    show spitz pain at left:
         xalign 0.25
         yalign 1.30
     with move
@@ -191,7 +207,7 @@ label cena6:
 
     msegg "It's not unheard of..."
 
-    msegg "Although I reckon it might do."
+    msegg "But I reckon you might just do."
 
     show spitz at left:
         yalign 1.1

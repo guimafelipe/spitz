@@ -14,11 +14,11 @@ label cena5a:
 
     "He tries to grab at me."
 
-    show spitz at right
+    show spitz angry at right
     show ironbar at right
     with move
 
-    show spitz at left
+    show spitz angry at left
     show ironbar at left
 
     "I swing the iron bar."
@@ -31,11 +31,11 @@ label cena5a:
 
     "It makes an awful sound for what was suposed to be a celular membrane."
 
-    show spitz at right
+    show spitz angry at right
     show ironbar at right
     with move
 
-    show spitz at left
+    show spitz angry at left
     show ironbar at left
 
     "I swing the metal bar again."
@@ -59,7 +59,11 @@ label cena5a:
 
     bully "..."
 
+    show spitz pain
+
     spitz "WHAT HAVE I DONE?!"
+
+    show spitz
 
     "My face is covered in blood."
 
@@ -72,6 +76,8 @@ label cena5a:
     "Have I broken any law?"
 
     "I hear someone approaching and look up"
+
+    show spitz at left
 
     "in time to see the murderous look this old woman is giving me, mere micrometers away."
 
@@ -121,7 +127,9 @@ label cena5a:
 
     with vpunch
 
-    "The old woman brandishes her cane at me one more time and starts limping in my direction."
+    "The old woman brandishes her cane at me one more time."
+    
+    "And starts limping in my direction."
 
     "I run."
 

@@ -123,7 +123,7 @@ label apologize:
 label yell:
 
     show punk at right with move
-    show spitz at left
+    show spitz angry at left
 
     spitz "GO CUT OFF YOUR GRANDMA, YOU MOTHER FLOATING SON OF A - {p=2.5}{nw} "
 
@@ -136,6 +136,8 @@ label aposmenu:
     bully "MY GRANDMA IS IN THE BACKSEAT, YOU MONSTER!"
     bully "YOU ALMOST KILLED HER."
 
+    show spitz at left
+    
     spitz "But… but… why did you cut me off with your grandma in the backseat?"
 
     spitz "It’s dangerous, you know."
