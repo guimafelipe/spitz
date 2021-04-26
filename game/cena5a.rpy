@@ -105,4 +105,4 @@ label cena5a:
 
     "I run."
 
-    return
+    jump cena6

@@ -1,3 +1,6 @@
+define ovum = Character("Ovum")
+define msegg = Character("Ms. Egg")
+
 label cena6:
     
     "In my short hours as a sperm cell I never thought I was going to be chased down through traffic by an old lady."
@@ -42,7 +45,7 @@ label cena6:
 
     "Then I see her, plump and rich."
 
-    show ovum
+    show ovulo at right
     with dissolve
 
     "I come to a halt, just as the old woman behind me."
