@@ -39,10 +39,10 @@ label cena5a:
     "The man before me slumps to the ground."
 
     # rotate punk sprite
-   
+
     # hide punk
     show punk:
-        
+
         easeout 1.0 rotate(90) yalign 2.0
 
     bully "..."
@@ -79,11 +79,11 @@ label cena5a:
 
     "What the float is even Christmas?"
 
-    grandma "Of course it was only once, I’ve been here for 3 days."
+    grandma "Of course it was only once, I’ve been here for 10 days."
 
     grandma "And more important:"
 
-    grandma "HE WAS MY LAST CHANCE OF MEETING THE OVULUM."
+    grandma "HE WAS MY LAST CHANCE OF MEETING THE OVUM."
 
     grandma "I chose the wrong uterine tube when I was younger."
 

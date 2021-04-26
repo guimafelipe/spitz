@@ -1,4 +1,4 @@
-define vendor = Character("Salesman", color = "#000000")
+define vendor = Character("Salesman", color = "#444444")
 
 label cena3:
     scene bg rent a car 1
@@ -54,9 +54,11 @@ label cantdrive:
 
 label apospergunta:
 
-    vendor "\"Here are your keys. Don’t worry, the ovulum is making all the investment.\""
+    vendor "Here are your keys. Don’t worry, the OVUM is paying for everything."
 
-    spitz "\"The ovol-\"{p=0.7}{nw} "
+    vendor "You know she makes pretty much all of the investment here."
+
+    spitz "\"The ov-\"{p=0.7}{nw} "
 
     vendor "\"Neeeeeext!\""
 
@@ -65,6 +67,6 @@ label apospergunta:
     hide halfblack
     with dissolve
 
-    "The person seems busy. I’d better get going."
+    "The man seems busy. I’d better get going."
 
     jump cena4

@@ -1,16 +1,16 @@
-define bully = Character('Bully', color="#eb343a")
+define bully = Character('Angry Guy', color="#eb343a")
 
 label cena4:
     scene bg engarrafamento
     with fade
 
-    
+
     # "\"Honk hooonk\" \n\"Beep beeeeeep\""
-    
-    
+
+
 
     "Barely a few minutes on the road and the sound of car horns are making me crazy."
-    
+
     window hide
 
     play sound "audio/buzina 2.ogg"
@@ -41,9 +41,9 @@ label cena4:
 
     "The sole reason I came here in the first place."
 
-    "To find the OVULUM."
+    "To find the OVUM."
 
-    "Whatever an ovulum is."
+    "Whatever an ovum is."
 
     "The traffic calms down a little around me. It starts to flow again."
 
@@ -53,9 +53,9 @@ label cena4:
 
 
     play sound "audio/buzina 3.ogg"
-    
+
     pause
-    
+
     # "BEEEEEEEEEEEEEEEEEEEEEEEP"
 
     "I'm still pressing the horn when the car in front of mine suddenly brakes."
@@ -75,7 +75,7 @@ label cena4:
     #show bg traffic jam with vpunch
 
     "{b}CRASH!{/b}"
-    
+
 
     "Oh gosh, we crashed."
 
@@ -113,8 +113,8 @@ label yell:
 
     show punk at right with move
     show spitz at left
-    
-    spitz "GO CUT OFF YOUR GRANDMA, YOU MOTHER FLOATING SON OF A - {p=2}{nw} "
+
+    spitz "GO CUT OFF YOUR GRANDMA, YOU MOTHER FLOATING SON OF A - {p=2.5}{nw} "
 
     # show punk at right
 
@@ -135,7 +135,7 @@ label aposmenu:
 
     bully "Her dying wish is for me to achieve what she never could."
 
-    bully "For me to reach the OVOLUM."
+    bully "For me to reach the OVUM."
 
     bully "AND I’M NOT LETTING A MOTHERFLOATING WIMP GET IN MY WAY."
 
@@ -147,4 +147,3 @@ menu:
 
     "I’d better run.":
          jump cena5b
-    
