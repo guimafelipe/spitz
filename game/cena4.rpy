@@ -66,9 +66,13 @@ label cena4:
 
     "I'm still pressing the horn when the car in front of mine suddenly brakes."
 
+    play sound "audio/tires.ogg" volume 0.4
+
     "{i}Screeeeeeeeeeeeeeeech{/i}"
 
     "I desperately reach for the brake with my tail."
+
+    play sound "audio/tires.ogg" volume 0.4
 
     "{i}Screeeeeeeeeeeeeeeech{/i}"
 
@@ -77,10 +81,9 @@ label cena4:
     #show bg traffic jam with vpunch
     with vpunch
 
-    "{b}BAM!{/b}"
-    with vpunch
-
     #show bg traffic jam with vpunch
+
+    play sound "audio/batida do carro.ogg" volume 0.4
 
     "{b}CRASH!{/b}"
 
