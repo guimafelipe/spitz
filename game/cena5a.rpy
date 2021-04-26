@@ -43,6 +43,10 @@ label cena5a:
     with hpunch
     "{b}THUD{/b}"
 
+    "{b}SPLASH{/b}"
+
+    play sound "audio/splash.ogg" volume 0.4
+
     "The man before me slumps to the ground."
 
     # rotate punk sprite

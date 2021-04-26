@@ -15,13 +15,24 @@ label cena5b:
 
     # MOSTRAR BULLY COM A BARRA DE FERRO
 
+    show ironbar at right:
+        xzoom -1.0
+
     spitz "Oh no!"
 
     "That was an understatement."
 
-    punk "YOU'RE GONNA PAY FOR STARTLING MY POOR GRANDMA!"
+    bully "YOU'RE GONNA PAY FOR STARTLING MY POOR GRANDMA!"
 
     "He lunged at me with the iron bar."
+
+    show ironbar at left:
+        xzoom -1.0
+    show punk at left
+    with move
+    show ironbar at right:
+        xzoom -1.0
+    show punk at right
 
     "It connected with my head."
 
@@ -30,6 +41,14 @@ label cena5b:
     "{b}THUD{/b}"
 
     "He did it again."
+
+    show ironbar at left:
+        xzoom -1.0
+    show punk at left
+    with move
+    show ironbar at right:
+        xzoom -1.0
+    show punk at right
 
     with hpunch
 
@@ -46,3 +65,5 @@ label cena5b:
     spitz "..."
 
     show spitz dead
+
+    return

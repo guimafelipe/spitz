@@ -208,9 +208,14 @@ label cena6:
     with dissolve
 
     msegg "NOM NOM NOM NOM NOM"
+    
+    play sound "audio/chomp.mp3"
 
     spitz "!"
 
+    show ovulo:
+        xzoom -1.0
+    with None
     show ovulo at right:
         zoom 0.7
     with dissolve
