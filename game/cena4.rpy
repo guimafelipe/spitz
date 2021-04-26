@@ -51,7 +51,7 @@ label cena4:
 
     #---- START OF TRAFFIC INCIDENT
 
-    play music "audio/musica da luta.ogg" fadein 1.0
+    stop music fadeout 1.0
 
     "Until a m-floater cuts me off."
 
