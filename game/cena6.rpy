@@ -1,17 +1,17 @@
-define ovum = Character("Ovum")
-define msegg = Character("Ms. Egg")
+define ovum = Character("Ovum", color = "#340274")
+define msegg = Character("Ms. Egg", color = "#340274")
 
 init:
     transform flip:
         xzoom -1.0
 
 label cena6:
-    scene bg ovarium empty
+    scene bg engarrafamento
     with fade
 
     "In my short hours as a sperm cell I never thought"
 
-    " that I was going to be chased down through traffic by an old lady."
+    "that I was going to be chased down through traffic by an old lady."
 
     "But boy, was I wrong."
 
@@ -47,6 +47,8 @@ label cena6:
 
     "We go down one of the ovarian tubes. I have no idea if it's the right one."
 
+    scene bg ovarium empty
+
     "At this point, I just want to survive."
 
     #scene bg ovarium empty
@@ -54,7 +56,9 @@ label cena6:
 
     "The ovarian tube is a much better running track."
 
-    "It's soon too narrow for the cars and the few sperm people scramble to the sides when they see our approach."
+    "It's soon too narrow for the cars."
+
+    "And the few sperm people scramble to the sides when they see our approach."
 
     "It would be so easy to keep going, but I start to feel my tail faltering."
 
@@ -97,15 +101,17 @@ label cena6:
 
     spitz "Could that be the OVUM!?"
 
+    scene bg tuba uterina
+
     ovum "It's actualy secondary oocyte."
 
     ovum "That's a common mistake."
 
     msegg "But you may call me Ms. Egg."
 
-    grandma "My dream"
+    grandma "My dream... "
 
-    grandma "My dream has finally come true."
+    grandma "My dream... has finally come true."
 
     grandma "It's an honour, Ms. Egg."
 
@@ -133,7 +139,7 @@ label cena6:
 
     "I realize I've dropped the iron bar somewhere along the way."
 
-    "But my face is still covered in another's sperm cytoplasm."
+    "But my face is still covered in another sperm's cytoplasm."
 
     spitz "And I ran all the way here from the uterus with this psychotic old lady after me."
 
@@ -172,6 +178,11 @@ label cena6:
 
     spitz "Argh"
 
+    show spitz at left:
+        xalign 0.25
+        yalign 1.30
+    with move
+
     "My vision starts to blur. I'd be short-breathed if I had lungs."
 
     "But I just feel my tail stoping to move and the burning pain at its base."
@@ -195,12 +206,14 @@ label cena6:
 
     # "Then I saw the most horrific"
 
-    "Then I saw the most horrific {p}and at the same time the most beautiful thing."
-     
+    "Then I saw the most horrific {p}and yet the most beautiful thing."
+
     show ovulo big mouth at right:
         zoom 0.7
 
     "Ms. Egg ripped the old woman's head off."
+
+    play sound "audio/splash.ogg" volume 0.7
 
     "And ate it whole."
 
@@ -208,7 +221,7 @@ label cena6:
     with dissolve
 
     msegg "NOM NOM NOM NOM NOM"
-    
+
     play sound "audio/chomp.mp3"
 
     spitz "!"
@@ -223,7 +236,7 @@ label cena6:
     msegg "Oh gosh, I was forgetting about the implantation at the uterus."
 
     msegg "I'm going to have to call a cab."
-    
+
     show ovulo at offscreenright:
         zoom 0.7
     with move

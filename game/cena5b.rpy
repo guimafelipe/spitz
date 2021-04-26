@@ -36,9 +36,9 @@ label cena5b:
 
     "It connected with my head."
 
-    with vpunch
+    play sound "audio/thud.ogg" volume 0.4
 
-    "{b}THUD{/b}"
+    with vpunch
 
     "He did it again."
 

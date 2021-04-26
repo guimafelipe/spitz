@@ -27,7 +27,7 @@ label cena5a:
 
     "The piece of metal connects with his head."
 
-    "{b}THUD{/b}"
+    play sound "audio/thud.ogg" volume 0.6
 
     "It makes an awful sound for what was suposed to be a celular membrane."
 
@@ -41,11 +41,12 @@ label cena5a:
     "I swing the metal bar again."
 
     with hpunch
-    "{b}THUD{/b}"
+
+    play sound "audio/thud.ogg" volume 0.6
 
     "{b}SPLASH{/b}"
 
-    play sound "audio/splash.ogg" volume 0.4
+    play sound "audio/splash.ogg" volume 0.7
 
     "The man before me slumps to the ground."
 
@@ -129,6 +130,6 @@ label cena5a:
     show spitz at offscreenleft
     show ironbar at offscreenleft
     with move
-    
+
 
     jump cena6
