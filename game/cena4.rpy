@@ -13,13 +13,15 @@ label cena4:
 
     window hide
 
-    play sound "audio/buzina 2.ogg"
+    play sound "audio/buzina 2.ogg" volume 0.4
 
     pause
 
     window show
 
     "I discovered I can actually drive, by the way."
+
+    "I don't know what I expected from the uterus"
 
     "I don't know what I expected from the uterus, but it certainly wasn't this f-ing traffic jam."
 
@@ -52,7 +54,7 @@ label cena4:
     "I honk my horn."
 
 
-    play sound "audio/buzina 3.ogg"
+    play sound "audio/buzina 3.ogg" volume 0.6
 
     pause
 

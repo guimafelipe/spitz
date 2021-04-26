@@ -7,6 +7,7 @@ label cena0:
 
     "\"Deeper...\""
 
-    "\"...deeper...\""
+    "\"Deeper... deeper...\""
+
 
     jump cena1

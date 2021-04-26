@@ -2,14 +2,16 @@ define ovum = Character("Ovum")
 define msegg = Character("Ms. Egg")
 
 label cena6:
-    
-    "In my short hours as a sperm cell I never thought I was going to be chased down through traffic by an old lady."
+
+    "In my short hours as a sperm cell I never thought"
+
+    " that I was going to be chased down through traffic by an old lady."
 
     "But boy, was I wrong."
 
     "Drivers honk angrily at us."
 
-    play sound "audio/buzina 1.ogg"
+    play sound "audio/buzina 1.ogg" volume 0.4
 
     "Some pull over. Afraid of the grandma, perharps?"
 
@@ -17,21 +19,24 @@ label cena6:
 
     "Should I use it against the old lady?"
 
-
     "I look back."
 
-    grandma "Come back here you little mother floating piece of s-! {p=3.5}{nw} "
+    grandma "Come back here you little mother floating piece of s-! {p=3}{nw} "
 
     "I'm too scared to face her anger. Or her cane."
 
     "I keep running."
 
-    "We go down one of the ovarian tubes. I have no idea if it's the right one, but at this point I just want to survive."
+    "We go down one of the ovarian tubes. I have no idea if it's the right one."
+
+    "At this point, I just want to survive."
 
     scene bg ovarium empty
     with fade
 
-    "The ovarian tube is a much better running track. It's soon too narrow for the cars and the few sperm people scramble to the sides when see our approach."
+    "The ovarian tube is a much better running track."
+
+    "It's soon too narrow for the cars and the few sperm people scramble to the sides when they see our approach."
 
     "It would be so easy to keep going, but I start to feel my tail faltering."
 
@@ -56,6 +61,8 @@ label cena6:
 
     ovum "It's actualy secondary oocyte."
 
+    ovum "That's a common mistake."
+
     msegg "But you may call me Ms. Egg."
 
     grandma "My dream"
@@ -76,43 +83,47 @@ label cena6:
 
     msegg "What shall you offer me, then?"
 
-    spitz "Well, I crashed into this flashy hellhole barehanded."
+    spitz "Well, I crashed into this fleshy hellhole barehanded."
 
-    spitz "And I kinda killed this one guy"
+    spitz "And I kinda killed this one guy..."
 
-    grandma "KINDA?"
+    grandma "KINDA?!"
 
-    msegg "Hmm. I do like the violent ones."
+    msegg "Hmm... I do like the violent ones."
 
-    "Let's she think it was on purpose, then"
+    "Let's she think it was on purpose, then."
+
+    "I realize I've dropped the iron bar somewhere along the way."
+
+    "But my face is still covered in another's sperm cytoplasm."
 
     spitz "And I ran all the way here from the uterus with this psychotic old lady after me."
 
-    grandma "PSYCHOTIC YOUR A- {p=2}{nw}"
+    grandma "PSYCHOTIC YOUR A- {p=1.5}{nw}"
 
     spitz "Argh!"
 
     "I feel an intense pain at the base of my tail."
 
-    "Could be my mithochondria failing?"
+    "Could it be my mithochondria failing?"
 
     "I fall on my knees."
 
     grandma "Well, the little guy doesn't seem to have much time left."
 
     grandma "But I'm alright to continue this conversation."
-  
+
     grandma "I've just run the same distance, you know."
 
     grandma "After this little punk brutally killed my grandson."
 
-    msegg "It's not like I condemn killing"
+    msegg "It's not like I condemn kill- {p=1.5}{nw}"
 
     grandma "But I carried on."
 
     grandma "I consumed my grandson's mithochondria."
 
-    grandma "Just as I did with my children before him"
+    grandma "Just as I did with my children before him."
 
     grandma "All who died on my arms after days of fighting for the honor of meeting you, my lady."
 
@@ -122,14 +133,18 @@ label cena6:
 
     "But I just feel my tail stoping to move and the burning pain at its base."
 
-    grandma "I've been alive for 10 days."
+    grandma "I've been alive for 10 days!"
 
-    msegg "Well, I reckon it might do."
+    msegg "It's not unheard of..."
+
+    msegg "Although I reckon it might do."
 
     "Ms. Egg beckoned that abhorrent woman forward and embraced her."
 
     "I felt a pang of an unknown sentiment within my trembling body."
 
+
+    "Then I saw the most horrific"
 
     "Then I saw the most horrific and at the same time the most beautiful thing."
 
@@ -137,6 +152,8 @@ label cena6:
     "Ms. Egg ripped the old woman's head off."
 
     "And ate it whole."
+
+    msegg "NOM NOM NOM NOM NOM"
 
     spitz "!"
 

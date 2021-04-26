@@ -7,7 +7,7 @@ label cena2:
 
     "\"Ouch!\""
 
-    "\" Get out of my tail!\""
+    "\"Get out of my tail!\""
 
     show halfblack
     show 2caudas at truecenter
@@ -27,14 +27,16 @@ label cena2:
     show 2head at truecenter
     with dissolve
 
-    th "\" I’ve got two heads!\" \"No, I have two heads!\""
+    th "\"I’ve got two heads!\" \"No, I have two heads!\""
 
     hide halfblack
     hide 2head
     with dissolve
 
-    "\" Get up or you’re gonna be left behind, you morons.\" Someone yells."
+    "\"Get up or you’re gonna be left behind, you morons.\" Someone yells."
 
     "The floor is squishy when I manage to get up on my tail."
+
+    "\"Com'on!\""
 
     jump cena3

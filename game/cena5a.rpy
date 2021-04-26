@@ -59,8 +59,9 @@ label cena5a:
 
     "Have I broken any law?"
 
-    "I look up in time to see the murderous look this old woman is giving me, mere micrometers away."
+    "I hear someone approaching and look up"
 
+    "in time to see the murderous look this old woman is giving me, mere micrometers away."
 
     "She snarls when we make eye contact."
 

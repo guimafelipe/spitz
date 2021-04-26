@@ -7,10 +7,10 @@ label cena1:
 
     "\"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH\""
 
-    "Sperm bodies bumping into each other."
-
     "Flying at an unimaginable speed."
 
-    "We went flowing like crazy into an unknow landscape."
+    "Flying at an unimaginable speed. Sperm bodies bumping into each other."
+
+    "We came flowing like crazy into an unknow landscape."
 
     jump cena2
