@@ -39,6 +39,9 @@ label cena2:
 
     "The floor is squishy when I manage to get up on my tail."
 
+    scene bg scattered pe
+    with dissolve
+
     "\"Com'on!\""
 
     jump cena3

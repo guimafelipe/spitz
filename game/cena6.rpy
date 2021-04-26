@@ -1,7 +1,13 @@
 define ovum = Character("Ovum")
 define msegg = Character("Ms. Egg")
 
+init:
+    transform flip:
+        xzoom -1.0
+
 label cena6:
+    scene bg ovarium empty
+    with fade
 
     "In my short hours as a sperm cell I never thought"
 
@@ -21,7 +27,19 @@ label cena6:
 
     "I look back."
 
+    show halfblack
+    show spitz at right:
+        xzoom -1.0
+    show old serious at left:
+        xzoom -1.0
+    with dissolve
+
     grandma "Come back here you little mother floating piece of s-! {p=3}{nw} "
+
+    hide halfblack
+    hide spitz
+    hide old
+    with dissolve
 
     "I'm too scared to face her anger. Or her cane."
 
@@ -31,8 +49,8 @@ label cena6:
 
     "At this point, I just want to survive."
 
-    scene bg ovarium empty
-    with fade
+    #scene bg ovarium empty
+    #with fade
 
     "The ovarian tube is a much better running track."
 
@@ -42,20 +60,40 @@ label cena6:
 
     "Am I going out of energy?"
 
+    show halfblack
+    show spitz at right:
+        xzoom -1.0
+    show old serious at left:
+        xzoom -1.0
+    with dissolve
+
     spitz "How are you alive for 10 days straight, you horrid woman?"
 
     grandma "I ATE MY GRANDSON'S MITHOCHONDRIA. AND MY CHILDREN'S BEFORE."
+
+    hide halfblack
+    hide spitz
+    hide old
+    with dissolve
 
     "I find it in me to keep running out of sheer horror."
 
     "Then I see her, plump and rich."
 
-    show ovulo at right
+    scene bg ovarium
     with dissolve
 
     "I come to a halt, just as the old woman behind me."
 
     "I can't help but to blurt out aloud:"
+
+    show halfblack
+    show spitz at left:
+        xalign 0.25
+    show old contempt at left
+    show ovulo at right:
+        zoom 0.7
+    with dissolve
 
     spitz "Could that be the OVUM!?"
 
@@ -107,6 +145,11 @@ label cena6:
 
     "Could it be my mithochondria failing?"
 
+    show spitz at left:
+        xalign 0.25
+        yalign 1.15
+    with move
+
     "I fall on my knees."
 
     grandma "Well, the little guy doesn't seem to have much time left."
@@ -139,31 +182,53 @@ label cena6:
 
     msegg "Although I reckon it might do."
 
+    show spitz at left:
+        yalign 1.1
+    show old contempt at left:
+        xalign 0.4
+    with move
+
     "Ms. Egg beckoned that abhorrent woman forward and embraced her."
 
     "I felt a pang of an unknown sentiment within my trembling body."
 
 
-    "Then I saw the most horrific"
+    # "Then I saw the most horrific"
 
-    "Then I saw the most horrific and at the same time the most beautiful thing."
-
+    "Then I saw the most horrific {p}and at the same time the most beautiful thing."
+     
+    show ovulo big mouth at right:
+        zoom 0.7
 
     "Ms. Egg ripped the old woman's head off."
 
     "And ate it whole."
 
+    hide old
+    with dissolve
+
     msegg "NOM NOM NOM NOM NOM"
 
     spitz "!"
 
+    show ovulo at right:
+        zoom 0.7
+    with dissolve
+
     msegg "Oh gosh, I was forgetting about the implantation at the uterus."
 
     msegg "I'm going to have to call a cab."
+    
+    show ovulo at offscreenright:
+        zoom 0.7
+    with move
 
     "I guess she's going to get caught in that ridiculous traffic jam."
 
     "It was my last thought before everything went blank."
+
+    scene bg darkness
+    with dissolve
 
     spitz "..."
 

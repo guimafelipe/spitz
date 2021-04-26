@@ -31,6 +31,13 @@ label cena5a:
 
     "It makes an awful sound for what was suposed to be a celular membrane."
 
+    show spitz at right
+    show ironbar at right
+    with move
+
+    show spitz at left
+    show ironbar at left
+
     "I swing the metal bar again."
 
     with hpunch
@@ -68,9 +75,16 @@ label cena5a:
     hide punk
     with dissolve
 
-    play music "audio/musica da luta.ogg"
+    show old snarl at right
+    with dissolve
+
+    # play music "audio/musica da luta.ogg"
 
     grandma "WHAT HAVE YOU DONE YOU LITTLE PUNK!?"
+
+    show cane at right:
+        zoom 0.5
+    with dissolve
 
     "Is it a cane she’s swinging at me?"
 
@@ -105,5 +119,12 @@ label cena5a:
     "The old woman brandishes her cane at me one more time and starts limping in my direction."
 
     "I run."
+
+    show old snarl at left
+    show cane at left
+    show spitz at offscreenleft
+    show ironbar at offscreenleft
+    with move
+    
 
     jump cena6
