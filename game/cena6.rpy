@@ -62,7 +62,7 @@ label cena6:
 
     "It would be so easy to keep going, but I start to feel my tail faltering."
 
-    show spitz pain
+    show spitz pain at right
 
     "Am I going out of energy?"
 
@@ -108,6 +108,8 @@ label cena6:
     with dissolve
 
     spitz "Could that be the OVUM!?"
+
+    play music "audio/musica emocionante.ogg"
 
     ovum "It's actualy secondary oocyte."
 
@@ -209,7 +211,7 @@ label cena6:
 
     msegg "But I reckon you might just do."
 
-    show spitz at left:
+    show spitz pain at left:
         yalign 1.1
     show old contempt at left:
         xalign 0.4
@@ -222,7 +224,7 @@ label cena6:
 
     # "Then I saw the most horrific"
 
-    "Then I saw the most horrific {p}and yet the most beautiful thing."
+    "Then I saw the most horrific {p}and yet most beautiful thing."
 
     show ovulo big mouth at right:
         zoom 0.7

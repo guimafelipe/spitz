@@ -89,7 +89,7 @@ label cena5a:
     show old snarl at right
     with dissolve
 
-    # play music "audio/musica da luta.ogg"
+    play music "audio/musica da luta.ogg"
 
     grandma "WHAT HAVE YOU DONE YOU LITTLE PUNK!?"
 
@@ -128,7 +128,7 @@ label cena5a:
     with vpunch
 
     "The old woman brandishes her cane at me one more time."
-    
+
     "And starts limping in my direction."
 
     "I run."
