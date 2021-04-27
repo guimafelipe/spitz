@@ -69,6 +69,14 @@ label cena5b:
  
     spitz "..."
 
-    show spitz dead
+    window hide
 
+    scene bg bad ending
+    with fade
+ 
+    pause
+
+    scene bg darkness
+    with fade
+   
     return

@@ -50,6 +50,7 @@ label cena6:
     "At this point, I just want to survive."
 
     scene bg ovarium empty
+    with fade
 
     #scene bg ovarium empty
     #with fade
@@ -109,7 +110,7 @@ label cena6:
 
     spitz "Could that be the OVUM!?"
 
-    play music "audio/musica emocionante.ogg"
+    play music "audio/musica emocionante.ogg" fadeout 1.0 fadein 1.0
 
     ovum "It's actualy secondary oocyte."
 
@@ -279,5 +280,16 @@ label cena6:
     with dissolve
 
     spitz "..."
+
+    window hide
+
+    scene bg true ending
+    with fade
+
+    
+    pause
+
+    scene bg darkness
+    with fade
 
     return
